@@ -24,6 +24,8 @@ Finally, run the application:
 ## Demonstration
 
 1. With the server still running, open http://localhost:3000 in your browser.
+   After the page has loaded, refresh it using Cmd+R/F5 once so that the
+   ServiceWorker can begin listening to events.
 2. Enter a valid GitHub username in the search box and click "search". The
    application will display a list of repositories belonging to the user.
 3. Repeat step 2 for as many users as you like. Each time you look for a new
