@@ -1,0 +1,13 @@
+{
+  "name": "serviceworker-poc",
+  "version": "0.1.0",
+  "description": "A proof of concept demonstrating the ServiceWorker API.",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "Ankur Sethi <contact@ankursethi.in>",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^1.3.2"
+  }
+}
