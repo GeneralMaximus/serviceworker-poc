@@ -1,8 +1,8 @@
 # serviceworker-poc
 
 serviceworker-poc is a simple application that demonstrates the ServiceWorker
-API. It lets you list a user's GitHub repositories, and caches the results
-for offline access.
+API. It lets you list a user's GitHub repositories by typing their username
+into a search box, and caches the list of repositories for offline access.
 
 
 ## Running
@@ -13,6 +13,7 @@ First, clone this repository:
 
 Then, `cd` into the project directory and install all the dependencies:
 
+	$ cd serviceworker-poc
 	$ npm i
 
 Finally, run the application:
