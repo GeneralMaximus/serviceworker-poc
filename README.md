@@ -4,6 +4,11 @@ serviceworker-poc is a simple application that demonstrates the ServiceWorker
 API. It lets you list a user's GitHub repositories by typing their username
 into a search box, and caches the list of repositories for offline access.
 
+**NOTE:** this project uses several ES6 and ServiceWorker features that are
+only available in Chrome Canary and Firefox Aurora (or Firefox Developer Edition)
+as of this writing. Things might behave badly or break entirely in older
+browsers.
+
 
 ## Running
 
